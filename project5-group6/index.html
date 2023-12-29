@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Set</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="section">
+        <h1>Welcome to the game of Set!</h1>
+    </div>
+
+    <div id="player_input" class="section ">
+        <div>
+            <p>Please enter each player's name.</p>
+            <br>
+        </div>
+        <div class="form">
+            <label for="player1">Player 1:</label>
+            <input type="text" id="player1" name="Player 1" placeholder="Ex: John"><br><br>
+            <label for="player2">Player 2:</label>
+            <input type="text" id="player2" name="Player 2" placeholder="Ex: Mary"><br><br>
+            <button id="submit-button">Submit</button>
+        </div>
+    </div>
+
+    <div id="hidden" style="display: none;">
+        <p id="welcome-message"></p><br>
+        <p id="score-player1"></p>
+        <p id="score-player2"></p>
+    </div>
+    
+    <div class="section">
+        <div class="game">
+            <button id="new-game-button">New Game</button>
+            <div id="gameBoard"></div>
+            <div id="buttonContainer"></div>
+            <div id="selectedCards"></div>
+            <script src="scripts/game.js"></script>
+        </div>
+    </div>
+
+    <div id="end-of-game" style="display: none;">
+        <button>End Game</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+publications:
+- authors: "Moein Ghaniyoun, Kristin Barber, Yuan Xiao, Yinqian Zhang, Radu Teodorescu"
+  title: "TEESec: Pre-Silicon Vulnerability Discovery for Trusted Execution Environments"
+  conference: "50th Annual International Symposium on Computer Architecture (ISCA)"
+  date: "June 17-21, 2023"
+  link: (<a href=https://web.cse.ohio-state.edu/~teodorescu.1/resources/TEESec_ISCA_2023.pdf>pdf</a>)
+- authors: "Jiuqin Zhou, Yuan Xiao, Radu Teodorescu, Yinqian Zhang"
+  title: "ENCLYZER: Automated Analysis of Transient Data Leaks on Intel SGX"
+  conference: "2022 IEEE International Symposium on Secure and Private Execution Environment Design (SEED)"
+  date: "September 2022"
+  link: (<a href=https://www.computer.org/csdl/proceedings-article/seed/2022/852600a145/1I1PjQXaff2>pdf</a>)
+- authors: "Mengyuan Li, Luca Wilke, Jan Wichelmann, Thomas Eisenbarth, Radu Teodorescu, Yinqian Zhang"
+  title: "A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP"
+  conference: "43rd IEEE Symposium on Security and Privacy (S&P)"
+  date: "May 2022"
+  link: (<a href=https://ieeexplore.ieee.org/document/9833768>pdf</a>)
+- authors: "Saikat Majumdar, Mohammad Hossein Samavatian, Radu Teodorescu"
+  title: "Characterizing Side-Channel Leakage of DNN Classifiers though Performance Counters"
+  conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
+  date: "June 2022"
+  link: (<a href=https://ieeexplore.ieee.org/document/9839882>pdf</a>)
+- authors: "Kristin Barber, Moein Ghaniyoun, Yinqian Zhang, Radu Teodorescu"
+  title: "A Pre-Silicon Approach to Discovering Microarchitectural Vulnerabilities in Security Critical Applications"
+  conference: "IEEE Computer Architecture Letters (CAL)"
+  date: "January 2022"
+  link: (<a href=https://ieeexplore.ieee.org/document/9713708>pdf</a>)
+- authors: "Saikat Majumdar, Mohammad Hossein Samavatian, Kristin Barber, Radu Teodorescu"
+  title: "Using Undervolting as an On-Device Defense Against Adversarial Machine Learning Attacks"
+  conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
+  date: "December 2021"
+  link: (<a href=https://web.cse.ohio-state.edu/~teodorescu.1/resources>pdf</a>)
+- authors: "Moein Ghaniyoun, Kristin Barber, Yinqian Zhang, Radu Teodorescu"
+  title: "IntroSpectre: A Pre-Silicon Framework for Discovery and Analysis of Transient Execution Vulnerabilities"
+  conference: "International Symposium on Computer Architecture (ISCA)"
+  date: "June 2021"
+  link: (<a href=https://web.cse.ohio-state.edu/~teodorescu.1/resources>pdf</a>)
+- authors: "Jia Guo, Gagan Agrawal, Radu Teodorescu"
+  title: "Fused DSConv: Optimizing Sparse CNN Inference for Execution on Edge Devices"
+  conference: "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing, (CCGrid)"
+  date: "May 2021"
+  link: 
+- authors: "Mohammad Samavatian, Anys Bacha, Li Zhou, Radu Teodorescu"
+  title: "RNNFast: An Accelerator for Recurrent Neural Networks Using Domain Wall Memory"
+  journal: "ACM Journal on Emerging Technologies in Computing Systems, (JETC)"
+  date: "2020"
+  link: (<a href=https://dl.acm.org/doi/fullHtml/10.1145/3399670>pdf</a>)
+- authors: "Jia Guo, Radu Teodorescu, Gagan Agrawal"
+  title: "A Pattern-Based API for Mapping Applications to a Hierarchy of Multi-Core Devices"
+  conference: "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)"
+  date: "May 2020"
+  link: (<a href=https://ieeexplore.ieee.org/document/9139746>pdf</a>)
+- authors: "Yuan Xiao, Yinqian Zhang, Radu Teodorescu"
+  title: "SPEECHMINER: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities"
+  conference: "Network and Distributed System Security Symposium (NDSS)"
+  date: "2020"
+  link: (<a href=https://www.ndss-symposium.org/ndss-paper/speechminer-a-framework-for-investigating-and-measuring-speculative-execution-vulnerabilities/>pdf</a>)
+- authors: "Li Zhou, Mohammad Samavatian, Anys Bacha, Saikat Majumdar, Radu Teodorescu"
+  title: "Adaptive parallel execution of deep neural networks on heterogeneous edge devices"
+  conference: "ACM/IEEE Symposium on Edge Computing, (SEC)"
+  date: "2019"
+  link: (<a href=https://dl.acm.org/doi/10.1145/3318216.3363312>pdf</a>)
+- authors: "Kristin Barber, Anys Bacha, Li Zhou, Yinqian Zhang, Radu Teodorescu"
+  title: "SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels"
+  conference: "International Conference on Parallel Architectures and Compilation Techniques (PACT)"
+  date: "September 2019"
+  link: (<a href=http://web.cse.ohio-state.edu/~teodorescu.1/resources/papers/specshield_pact2019.pdf>pdf</a>)
+- authors: "Kristin Barber, Anys Bacha, Li Zhou, Yinqian Zhang, Radu Teodorescu"
+  title: "Isolating Speculative Data to Prevent Transient Execution Attacks"
+  journal: "Computer Architecture Letters (CAL)"
+  date: "2019"
+  link: (<a href=https://ieeexplore.ieee.org/document/8714070>pdf</a>)
+- authors: "Li Zhou, Hao Wen, Radu Teodorescu, David H.C. Du"
+  title: "Distributing Deep Neural Networks with Containerized Partitions at the Edge"
+  conference: "HotEdge '19 Workshop at 2019 USENIX Annual Technical Conference"
+  date: "2019"
+  link: (<a href=https://www.usenix.org/conference/hotedge19/presentation/zhou>pdf</a>)

@@ -1,0 +1,28 @@
+---
+title: About Me
+---
+
+<%= partial 'partials/contact' %>
+<%= partial 'partials/about' %>
+<div class="website-text">
+  <h3>Selected Publications</h3>
+  <ul>
+    <% data.slctpublications.publications.each do |publication| %>
+      <li>
+        <p>
+        <% if publication.new == true %>
+        <span class="red-bold-text">*new*</span>
+      <% end %>
+        <a class= "red-link" <%= publication.link %>>
+        <%= publication.title %></a>, <%= publication.conference%>, 
+        <%= publication.date %>
+        <% if publication.note %>
+          , <span class="red-bold-text"><%= publication.note %></span></p>
+        <% else %>
+          </p>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+  <p><a class= "red-link" <a href="/publications.html">(Complete list)</a></p>
+</div>

@@ -1,0 +1,33 @@
+.section table, .section th, .section td {
+    border: 1px solid #000;
+  }
+  
+.section th, .section td {
+  padding: 10px;
+}
+  
+.section h2 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+  
+.indented {
+  margin-left: 40px;
+  line-height: 1.5;
+}
+
+a {
+  padding-top: 30px;
+}
+
+.indented a {
+  font-weight: bold;
+  color: rgb(189, 13, 13);
+  text-decoration: none;
+
+}
+
+.indented a:hover {
+  font-size: 18px;
+  color: rgba(189, 13, 13, 0.3);
+}

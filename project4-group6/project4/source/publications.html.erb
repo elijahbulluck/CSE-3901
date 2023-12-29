@@ -1,0 +1,16 @@
+---
+title: Publications
+---
+
+<h2>Personal Publications</h2>
+<div class="publications">
+    <% data.publications.publications.each do |presentation| %>
+        <p class="elements">
+            <%= presentation.authors %>
+            <strong><%= presentation.title %></strong>
+            <%= presentation.conference %>
+            <%= presentation.date %>
+            <%= presentation.link %>
+        </p>
+    <% end %>
+</div>

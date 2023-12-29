@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title %></title>
+    <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "index" %>
+    <%= stylesheet_link_tag "research" %>
+    <%= stylesheet_link_tag "publications" %>
+    <%= stylesheet_link_tag "presentations" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    
+    <!-- Every page will now have a navbar, header, and a footer and "yield" will be replaced with the relevant data by Middleman -->
+    <div class="nav-bar">
+      <%= partial 'partials/navigation' %>
+    </div>
+    <div class="head">
+      <%= partial 'partials/header' %>
+    </div>
+    <div class="section">
+      <%= yield %>
+    </div>
+    <div class="footer">
+      <%= partial 'partials/footer' %>
+    </div>
+  </body>
+</html>

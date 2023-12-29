@@ -1,0 +1,13 @@
+---
+title: presentations
+---
+
+<h2>Presentations & Demos</h2>
+<div class="page-content">
+    <% data.presentationslist.presentations.each do |presentation|%>
+        <p><strong><%=presentation.title%></strong></p>
+        <p><i><%=presentation.location%></i></p>
+        <p><%=presentation.date%></p>
+        <br>
+    <% end %>
+</div>

@@ -1,0 +1,35 @@
+description: The Computer Architecture Research Lab at Ohio State University is focused on developing the next generation secure and energy efficient architectures that meet the challenges of increasingly unreliable technology. More details on our research are available online.
+updates:
+  - date: 10/17/2019
+    comment: <p>We were thrilled to organize <a href="https://www.microarch.org/micro52/">MICRO-52</a> in Columbus! A <a href="resources/papers/GC-Message.pdf">welcome message to attendees</a> from DK Panda and I. Pictures from the conference <a href="https://www.facebook.com/teodorescu/posts/10215021858648459">are available here</a>.</p>
+  - date: 07/01/2019
+    comment: Congratulations to Dr. Li Zhou on his PhD and new position at Twitter!
+  - date: 06/01/2017
+    comment: Congratulations to Dr. Anys Bacha on his new position as an Assistant Professor at University of Michigan-Dearborn.
+  - date: 04/25/2017
+    comment: Congratulations to newly minted Dr. Xiang Pan! Enjoy Qualcomm and Austin!
+  - date: 01/09/2016
+    comment: Congratulations to Dr. Anys Bacha!
+  - date: 01/20/2016
+    comment: Our new paper on voltage noise, <a href="http://web.cse.ohio-state.edu/~teodores/download/papers/thomas_ispass2016.pdf" target="self" title="About us">EmerGPU - Understanding and Mitigating Resonance-Induced Voltage Noise in GPU Architectures</a>, was accepted at ISPASS 2016. 
+  - date: 11/24/2015
+    comment: Congratulations to Dr. Renji Thomas on his brand new PhD and good luck on his new career at Intel!
+  - date: 11/20/2015
+    comment: Our paper <a href="http://www.cse.ohio-state.edu/~teodores/download/papers/thomas_hpca2016.pdf" target="self" title="About us">Core Tunneling - Variation-Aware Voltage Noise Mitigation in GPUs</a> was accepted at <a href="http://hpca22.site.ac.upc.edu" target="self">HPCA 2016</a> and was nominated for the Best Paper Award. Congratulations Renji and team! 
+  - date: 10/15/2015
+    comment: Congratulations to Dr. <a href="http://www.cse.ohio-state.edu/~sedaghat/" target="self">Naser Sedaghati</a> on his new PhD and new job at Imagination Technologies! 
+  - date: 9/05/2015
+    comment: Our paper “<a href="http://www.cse.ohio-state.edu/~teodores/download/papers/bacha-micro15.pdf" target="self">Authenticache - Harnessing Cache ECC for System Authentication</a>” was accepted at <a href="http://www.microarch.org/micro48/" target="self">MICRO 2015</a>! Aloha!?
+  - date: 9/01/2014
+    comment: Radu was promoted to Associate Professor.
+  - date: 4/14/2014
+    comment: Our alumnus, <a href="http://www.cs.binghamton.edu/~millerti/" target="self">Timothy Miller</a>, PhD ’12, new professor at Binghamton University, was recently awarded the Faculty Early Career Development (CAREER) award. This award supports junior faculty who exemplify the role of teacher-scholars through outstanding research, excellent education and the integration of education and research. Many congratulations Tim!  
+publications:
+  - entry: <a href="resources/papers/introspectre-isca2021.pdf">IntroSpectre - A Pre-Silicon Framework for Discovery and Analysis of Transient Execution Vulnerabilities</a>, International Symposium on Computer Architecture (ISCA), June 2021
+  - entry: RNNFast - An Accelerator for Recurrent Neural Networks Using Domain Wall Memory, ACM Journal on Emerging Technologies in Computing Systems, (
+  - entry: <a href="http://web.cse.ohio-state.edu/~teodorescu.1/resources/papers/specshield_pact2019.pdf">SpecShield - Shielding Speculative Data from Microarchitectural Covert Channels</a>, International Conference on Parallel Architectures and Compilation Techniques (PACT)MICRO Top Picks 2019 honorable mention</span>
+  - entry: <a href="https://ieeexplore.ieee.org/document/8714070">Isolating Speculative Data to Prevent Transient Execution Attacks</a>, Computer Architecture Letters (CAL), 2019, <span style="color:#FF0000;font-weight:bold; ">Best of CAL 2019</span> 
+  - entry: <a href="https://dl.acm.org/doi/10.1145/3318216.3363312">Adaptive parallel execution of deep neural networks on heterogeneous edge devices</a>, ACM/IEEE Symposium on Edge Computing, (SEC), 2019
+  - entry: <a href="https://ieeexplore.ieee.org/document/8615722">NVCool - When Non-Volatile Caches Meet Cold Boot Attacks</a>, IEEE International Conference on Computer Design (ICCD), 2018
+  - entry: <a href="https://dl.acm.org/citation.cfm?id=3225136" target="self">C-Graph:&nbsp;A Highly Efficient Concurrent Graph Reachability Query Framework</a><span style="color:#000000;">, In&nbsp;47th International Conference on Parallel Proc</span>essing (ICPP), August 2018 
+  - entry: IEEE International Parallel and Distributed Processing Symposium (IPDPS), May 2017 

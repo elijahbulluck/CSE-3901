@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #CCE5FF;
+    font-family: Tahoma, sans-serif;
+}
+
+.section {
+    margin: 1vh;
+    padding: 2vh 40vh 2vh;
+}
+
+#player_input {
+    border-radius: 5px;
+}
+
+#hidden, #end-of-game {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#card-look {
+    background-color: white;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid #000;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+        margin-top: 45px;
+        margin-left: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+
+#new-game-button {
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#check-set-1, #check-set-2 {
+    display: inline-block;
+    margin: 1em 30px;
+}
+
+#buttonContainer {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #333;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.selected {
+    border: 4px solid blue
+}
+
+#gameBoard {
+    margin: 10%;
+}
+
+#end-of-game {
+    margin-bottom: 15px;
+}

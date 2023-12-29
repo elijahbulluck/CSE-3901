@@ -1,0 +1,34 @@
+---
+title: Research
+layout: "layout"
+---
+
+<h2>Research Description</h2>
+<p class="indented"><%= data.research.description %></p>
+
+<br/>
+
+<h2>Recent Updates:</h2>
+<table class="indented">
+    <tr>
+        <th>Date</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+    <% data.research.updates.each do |update| %>
+        <td><strong><%= update.date %></strong></td>
+        <td><%= update.comment %></td>
+    </tr>
+    <% end %>
+</table>
+
+<br/>
+
+<h2>Recent Publications</h2>
+<ul class="indented">
+    <% data.research.publications.each do |publication| %>
+        <li><%= publication.entry %></li>
+    <% end %>
+</ul>
+
+<br/><a href="https://web.cse.ohio-state.edu/~teodorescu.1/arch/index.html" class="indented">See More</a>

@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  display: block;
+  background-color: #E4E6EB;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  text-align: center;
+}
+
+.head {
+  padding-top: 3em;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: left;
+  width: 100%;
+  bottom: 0;
+  height: 6em;
+  background-color: rgb(189, 13, 13);
+  color: white;
+  border-top: 2px solid black;
+}
+
+.footer-text {
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 7px;
+}
+
+.section {
+  padding: 3% 5% 3%;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.nav-bar {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  margin-right: 30%;
+  padding-bottom: 10 em;
+  border-bottom: 2px solid black;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(189, 13, 13);
+    width: 100%;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    transition: .1s;
+    &:focus,
+    &:hover {
+      color: rgba(#fff, 0.6);
+    }
+  }
+}
+
+.upper {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-style: italic;
+}
+
+.page-header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+.header-left {
+  text-align: left;
+}
+
+.header-left h1 {
+  font-size: 24px;
+  margin: 0;
+  color: black;
+}
+
+.header-left p {
+  font-size: 18px;
+  margin: 0;
+  color: black;
+  
+}
+
+.header-right img {
+  width: 200px;
+  height: auto;
+  background-color: white;
+}
+
+.red-link {
+  color: rgb(189, 13, 13);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: font-size 0.3s;
+}
+
+.red-link:hover {
+  font-size: 18px;
+  color: rgba(189, 13, 13, 0.3);
+}
+
+.red-bold-text {
+  font-weight: bold;
+  color: rgb(189, 13, 13);
+}
+
+.website-text {
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.website-text p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.website-content {
+  flex: 2;
+  margin-left: 20px; 
+}
+
+.website-text ul {
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}

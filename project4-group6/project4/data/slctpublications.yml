@@ -1,0 +1,173 @@
+publications:
+  - title: "TEESec: Pre-Silicon Vulnerability Discovery for Trusted Execution Environments"
+    conference: "50th Annual International Symposium on Computer Architecture (ISCA)"
+    date: "June 17–21, 2023"
+    link: "https://web.cse.ohio-state.edu/~teodorescu.1/resources/TEESec_ISCA_2023.pdf"
+    new: true
+    
+  - title: "ENCLYZER: Automated Analysis of Transient Data Leaks on Intel SGX"
+    conference: "2022 IEEE International Symposium on Secure and Private Execution Environment Design (SEED)"
+    date: "September 2022"
+    link: "https://doi.ieeecomputersociety.org/10.1109/SEED55351.2022.00020"
+    new: true
+
+  - title: "A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP"
+    conference: "43rd IEEE Symposium on Security and Privacy (S&P)"
+    date: "May 2022"
+    link: "https://ieeexplore.ieee.org/document/9833768"
+    new: true
+
+  - title: "A Pre-Silicon Approach to Discovering Microarchitectural Vulnerabilities in Security Critical Applications"
+    conference: "IEEE Computer Architecture Letters (CAL)"
+    date: "January 2022"
+    link: "https://web.cse.ohio-state.edu/~teodorescu.1/resources"
+    note: "Best of CAL 2022"
+    new: true
+  
+  - title: "Using Undervolting as an On-Device Defense Against Adversarial Machine Learning Attacks"
+    conference: "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)"
+    date: "December 2021"
+    link: "https://web.cse.ohio-state.edu/~teodorescu.1/resources"
+    new: false
+
+  - title: "IntroSpectre: A Pre-Silicon Framework for Discovery and Analysis of Transient Execution Vulnerabilities"
+    conference: "International Symposium on Computer Architecture (ISCA)"
+    date: "June 2021"
+    link: "https://web.cse.ohio-state.edu/~teodorescu.1/resources"
+    new: false
+
+  - title: "RNNFast: An Accelerator for Recurrent Neural Networks Using Domain Wall Memory"
+    conference: "ACM Journal on Emerging Technologies in Computing Systems (JETC)"
+    date: "2020"
+    link: "https://dl.acm.org/doi/fullHtml/10.1145/3399670"
+    new: false
+
+  - title: "SPEECHMINER: A Framework for Investigating and Measuring Speculative Execution Vulnerabilities"
+    conference: "Network and Distributed System Security Symposium (NDSS)"
+    date: "2020"
+    link: "https://www.ndss-symposium.org/ndss-paper/speechminer-a-framework-for-investigating-and-measuring-speculative-execution-vulnerabilities/"
+    new: false
+
+  - title: "SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels"
+    conference: "International Conference on Parallel Architectures and Compilation Techniques (PACT)"
+    date: "2019"
+    link: "http://web.cse.ohio-state.edu/~teodorescu.1/resources/papers/specshield_pact2019.pdf"
+    notes: "MICRO Top Picks 2019 Honorable Mention"
+    new: false
+
+  - title: "Isolating Speculative Data to Prevent Transient Execution Attacks"
+    conference: "Computer Architecture Letters (CAL)"
+    date: "2019"
+    link: "https://ieeexplore.ieee.org/document/8714070"
+    notes: "Best of CAL 2019"
+    new: false
+
+  - title: "Adaptive parallel execution of deep neural networks on heterogeneous edge devices"
+    conference: "ACM/IEEE Symposium on Edge Computing (SEC)"
+    date: "2019"
+    link: "https://dl.acm.org/doi/10.1145/3318216.3363312"
+    new: false
+
+  - title: "NVCool: When Non-Volatile Caches Meet Cold Boot Attacks"
+    conference: "IEEE International Conference on Computer Design (ICCD)"
+    date: "2018"
+    link: "https://ieeexplore.ieee.org/document/8615722"
+    new: false
+
+  - title: "Respin: Rethinking Near-Threshold Multiprocessor Design with Non-Volatile Memory"
+    conference: "IEEE International Parallel and Distributed Processing Symposium (IPDPS)"
+    date: "May 2017"
+    link: "https://ieeexplore.ieee.org/document/7967116"
+    new: false
+
+  - title: "Snatch: Opportunistically Reassigning Power Allocation between Processor and Memory in 3D Stacks"
+    conference: "International Symposium on Microarchitecture (MICRO)"
+    date: "October 2016"
+    link: "http://ieeexplore.ieee.org/document/7783757/"
+    new: false
+
+  - title: "One Bit Flips, One Cloud Flops: Cross-VM Row Hammer Attacks and Privilege Escalation"
+    conference: "USENIX Security'16"
+    date: "August 2016"
+    link: "https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_xiao.pdf"
+    new: false
+
+  - title: "EmerGPU: Understanding and Mitigating Resonance-Induced Voltage Noise in GPU Architectures"
+    conference: "International Symposium on Performance Analysis of Systems and Software (ISPASS)"
+    date: "April 2016"
+    link: "http://web.cse.ohio-state.edu/~teodores/download/papers/thomas_ispass2016.pdf"
+    new: false
+
+  - title: "Core Tunneling: Variation-Aware Voltage Noise Mitigation in GPUs"
+    conference: "International Symposium on High-Performance Computer Architecture (HPCA)"
+    date: "March 2016"
+    link: "http://www.cse.ohio-state.edu/~teodores/download/papers/thomas_hpca2016.pdf"
+    notes: "Nominated for Best Paper Award"
+    new: false
+
+  - title: "Authenticache: Harnessing Cache ECC for System Authentication"
+    conference: "International Symposium on Microarchitecture (MICRO)"
+    date: "December 2015"
+    link: "http://www.cse.ohio-state.edu/~teodores/download/papers/bacha-micro15.pdf"
+    notes: "MICRO Top Picks 2015 Honorable Mention"
+    new: false
+
+  - title: "Using ECC Feedback to Guide Voltage Speculation in Low-Voltage Processors"
+    conference: "International Symposium on Microarchitecture (MICRO)"
+    date: "December 2014"
+    link: "http://web.cse.ohio-state.edu/~teodorescu.1/resources/papers/bacha-micro14.pdf"
+    new: false
+
+  - title: "NVSleep: Using Non-Volatile Memory to Enable Fast Sleep/Wakeup of Idle Cores"
+    conference: "IEEE International Conference on Computer Design (ICCD)"
+    date: "October 2014"
+    link: "http://web.cse.ohio-state.edu/~teodorescu.1/resources/papers/nvsleep_iccd14.pdf"
+    new: false
+
+  - title: "Dynamic Reduction of Voltage Margins by Leveraging On-chip ECC in Itanium II Processors"
+    conference: "International Symposium on Computer Architecture (ISCA)"
+    date: "June 2013"
+    link: "http://www.cse.ohio-state.edu/~teodores/download/papers/bacha-isca13.pdf"
+    new: false
+
+  - title: "VRSync: Characterizing and Eliminating Synchronization-Induced Voltage Emergencies in Many-core Processors"
+    conference: "International Symposium on Computer Architecture (ISCA)"
+    date: "June 2012"
+    link: "http://www.cse.ohio-state.edu/~teodores/download/papers/vrsync-isca12.pdf"
+    new: false
+
+  - title: "Booster: Reactive Core Acceleration for Mitigating the Effects of Process Variation and Application Imbalance in Low-Voltage Chips"
+    conference: "International Symposium on High-Performance Computer Architecture (HPCA)"
+    date: "February 2012"
+    link: "http://www.cse.ohio-state.edu/~teodores/download/papers/booster-hpca12.pdf"
+    new: false
+
+  - title: "StVEC: A Vector Instruction Extension for High Performance Stencil Computation"
+    conference: "International Conference on Parallel Architectures and Compilation Techniques (PACT)"
+    date: "October 2011"
+    link: "http://www.cse.ohio-state.edu/~sedaghat/download/sedaghati_pact_11.pdf"
+    new: false
+
+  - title: "Parichute: Generalized Turbocode-Based Error Correction for Near-Threshold Caches"
+    conference: "International Symposium on Microarchitecture (MICRO)"
+    date: "December 2010"
+    link: "https://web.cse.ohio-state.edu/~teodorescu.1/download/papers/parichute-micro2010.pdf"
+    new: false
+
+  - title: "Variation-Aware Application Scheduling and Power Management for Chip Multiprocessors"
+    conference: "International Symposium on Computer Architecture (ISCA)"
+    date: "June 2008"
+    link: "https://web.cse.ohio-state.edu/~teodorescu.1/download/papers/teodorescu-ISCA08.pdf"
+    new: false
+
+  - title: "VARIUS: A Model of Parameter Variation and Resulting Timing Errors for Microarchitects"
+    conference: "IEEE Transactions on Semiconductor Manufacturing (IEEE TSM)"
+    date: "February 2008"
+    link: "https://web.cse.ohio-state.edu/~teodorescu.1/download/papers/varius-tsm.pdf"
+    new: false
+
+  - title: "Mitigating Parameter Variation with Dynamic Fine-Grain Body Biasing"
+    conference: "International Symposium on Microarchitecture (MICRO)"
+    date: "December 2007"
+    link: "https://web.cse.ohio-state.edu/~teodorescu.1/download/papers/dfgbb-micro07.pdf"
+    new: false
